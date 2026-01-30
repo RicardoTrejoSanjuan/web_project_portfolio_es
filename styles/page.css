@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overscroll-behavior: none;
+  position: relative;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  margin: 89px 120px 0 120px;
+}
+
+.span-wrap {
+  display: block;
+}

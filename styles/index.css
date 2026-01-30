@@ -1,26 +1,7 @@
-/* @import url("./normalize.css"); */
+@import url("./normalize.css");
 @import url("./fonts.css");
 @import url("./variables.css");
+@import url("./page.css");
 @import url("./header.css");
 @import url("./main.css");
 @import url("./footer.css");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  overscroll-behavior: none;
-}
-
-body {
-  background-color: var(--color-bg);
-  color: var(--color-white);
-  margin: 89px 120px 0 120px;
-}
-
-.span-wrap {
-  display: block;
-}
