@@ -7,8 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="glow-bg"></div>
     <header class="header">
+      <div class="glow-bg"></div>
       <img
         src="https://sait.kg/wp-content/uploads/2019/08/developer-site-bishkek.png"
         alt="Image profile"
@@ -32,21 +32,244 @@
       </p>
       <div class="header__buttons">
         <span class="header__underline-gradient">
-          <button class="header__button">Descargar CV</button>
+          <!-- https://drive.google.com/file/d/1tox5Fkkoew9GnKBXFyU5Hzk7kXCvSfts/view?usp=sharing
+          https://drive.google.com/uc?export=download&id=1tox5Fkkoew9GnKBXFyU5Hzk7kXCvSfts -->
+
+          <!-- <button class="header__button">Download CV</button> -->
+          <a
+            href="https://drive.google.com/uc?export=download&id=1tox5Fkkoew9GnKBXFyU5Hzk7kXCvSfts"
+            class="header__button"
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+          >
+            Download CV
+          </a>
         </span>
         <span class="header__underline-gradient">
-          <button class="header__button">Enlace a GitHub</button>
+          <a
+            href="https://github.com/RicardoTrejoSanjuan"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="header__button"
+            aria-label="GitHub"
+            >GitHub Profile</a
+          >
         </span>
         <span class="header__underline-gradient">
-          <button class="header__button">Hablemos</button>
+          <a href="#contact" class="header__button"> Contact Me </a>
         </span>
       </div>
     </header>
     <main class="content">
       <section id="skills" class="skills">
-        <h2 class="skills__header">Skills and tools</h2>
+        <h2 class="skills__header">Skills & Tools</h2>
+        <div class="skills__track">
+          <img class="skills__image" src="./images/html.svg" alt="HTML Image" />
+          <img class="skills__image" src="./images/css.svg" alt="CSS Image" />
+          <img class="skills__image" src="./images/js.svg" alt="JS Image" />
+          <img class="skills__image" src="./images/git.svg" alt="GIT Image" />
+          <img
+            class="skills__image"
+            src="./images/github.svg"
+            alt="GitHub Image"
+          />
+          <img
+            class="skills__image"
+            src="./images/openia.svg"
+            alt="Open IA Image"
+          />
+
+          <img class="skills__image" src="./images/html.svg" alt="HTML Image" />
+          <img class="skills__image" src="./images/css.svg" alt="CSS Image" />
+          <img class="skills__image" src="./images/js.svg" alt="JS Image" />
+          <img class="skills__image" src="./images/git.svg" alt="GIT Image" />
+          <img
+            class="skills__image"
+            src="./images/github.svg"
+            alt="GitHub Image"
+          />
+          <img
+            class="skills__image"
+            src="./images/openia.svg"
+            alt="Open IA Image"
+          />
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="projects__header">Latest Projects</h2>
+        <div class="projects__cards">
+          <div class="projects__card">
+            <div class="projects__image-wrapper">
+              <img
+                class="projects__image"
+                src="./images/app1.png"
+                alt="Coffee Shop Image"
+              />
+
+              <div class="projects__image-shadow"></div>
+
+              <div class="projects__floating">
+                <img
+                  class="projects__floating-img"
+                  src="./images/html.svg"
+                  alt="HTML image"
+                />
+                <img
+                  class="projects__floating-img"
+                  src="./images/css.svg"
+                  alt="CSS image"
+                />
+              </div>
+            </div>
+            <div class="projects__content">
+              <div class="projects__detail">
+                <h3 class="projects__title">Coffee Shop Website</h3>
+                <p class="projects__description">
+                  Development of a responsive landing page for a coffee shop
+                  following a design brief. Includes semantic structure, layout
+                  with Flexbox, creation of new sections, and a functional
+                  contact form. Achievement: I implemented the entire page
+                  design from scratch, organized the project using best
+                  practices, and published the final version using GitHub Pages.
+                </p>
+              </div>
+              <div class="projects__links">
+                <a class="projects__link projects__link-demo">
+                  <img
+                    class="projects__link-img"
+                    src="./images/union.svg"
+                    alt="union icon"
+                  />
+                  Live Demo</a
+                >
+                <a class="projects__link">
+                  <img
+                    class="projects__link-img"
+                    src="./images/github.svg"
+                    alt="github icon"
+                  />
+                  GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image-wrapper">
+              <img
+                class="projects__image"
+                src="./images/app2.png"
+                alt="Mock project Image"
+              />
+
+              <div class="projects__image-shadow"></div>
+
+              <div class="projects__floating">
+                <img
+                  class="projects__floating-img"
+                  src="./images/js.svg"
+                  alt="JS image"
+                />
+                <img
+                  class="projects__floating-img"
+                  src="./images/react.svg"
+                  alt="React image"
+                />
+              </div>
+            </div>
+            <div class="projects__content">
+              <div class="projects__detail">
+                <h3 class="projects__title">My project</h3>
+                <p class="projects__description">
+                  Project description goes here.
+                </p>
+              </div>
+              <div class="projects__links">
+                <a class="projects__link projects__link-demo">
+                  <img
+                    class="projects__link-img"
+                    src="./images/union.svg"
+                    alt="union icon"
+                  />
+                  Live Demo</a
+                >
+                <a class="projects__link">
+                  <img
+                    class="projects__link-img"
+                    src="./images/github.svg"
+                    alt="github icon"
+                  />
+                  GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>footer</footer>
+    <footer class="footer" id="contact">
+      <!-- <div class="glow-bg2"></div> -->
+      <div class="footer__content">
+        <h2 class="footer__title">Contact</h2>
+        <a href="mailto:trejosanjuanricardo@gmail.com" class="footer__email">
+          trejosanjuanricardo@gmail.com
+        </a>
+        <div class="footer__social">
+          <a
+            href="https://www.linkedin.com/in/ricardo-trejo-sanjuan-96616b153/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+            aria-label="LinkedIn"
+          >
+            <img
+              class="footer__social-img"
+              src="./images/linkedin.svg"
+              alt="LinkedIn icon"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+            aria-label="Facebook"
+          >
+            <img
+              class="footer__social-img"
+              src="./images/facebook.svg"
+              alt="Facebook icon"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+            aria-label="Instagram"
+          >
+            <img
+              class="footer__social-img"
+              src="./images/instagram.svg"
+              alt="Instagram icon"
+            />
+          </a>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer__social-link"
+            aria-label="Twitter / X"
+          >
+            <img
+              class="footer__social-img"
+              src="./images/twitter.svg"
+              alt="Twitter icon"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
