@@ -3,12 +3,14 @@
   overflow: hidden;
   width: 100%;
 }
+
 .skills__header,
 .projects__header {
-  font-family: var(--font-archivoblack);
+  font-family: var(--font-heading);
   font-size: 40px;
   margin-bottom: 50px;
 }
+
 .skills__track {
   display: flex;
   gap: 180px;
@@ -16,6 +18,7 @@
   animation: scroll 25s linear infinite;
   will-change: transform;
 }
+
 .skills__image {
   width: 50px;
   height: 57px;
@@ -34,8 +37,10 @@
   display: flex;
   gap: 20px;
 }
+
 .projects__card {
-  width: 590px;
+  max-width: 590px;
+  width: 100%;
   background-color: var(--color-cards);
 }
 
@@ -87,14 +92,12 @@
 }
 
 .projects__title {
-  font-family: var(--font-opensans);
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 20px;
 }
 
 .projects__description {
-  font-family: var(--font-opensans);
   font-size: 18px;
 }
 
@@ -107,7 +110,6 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-opensans);
   font-size: 16px;
   color: var(--color-white);
   text-decoration: none;

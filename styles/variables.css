@@ -1,7 +1,7 @@
 :root {
   /** Fonts **/
-  --font-archivoblack: "ArchivoBlack", "Arial", sans-serif;
-  --font-opensans: "OpenSans", "Times New Roman", serif;
+  --font-heading: "ArchivoBlack", "Arial", sans-serif;
+  --font-body: "OpenSans", "Times New Roman", serif;
 
   /** Colors **/
   --color-gray: #ffffff80;
@@ -10,15 +10,4 @@
 
   --color-purple: #6d6dff;
   --color-cards: #1c1c1c;
-
-  /*
-  --color-black: #000000;
-  --color-gray-1: #f2f2f2;
-  --color-gray-2: #838383;
-  --color-gray-3: #6f6f6f;
-  --color-gray-4: #4f4f4f;
-  --color-accent-light: #ffd6c5;
-  --color-accent: #ff976b;
-  --color-accent-dark: #e96e3a;
-  --color-accent-footer: #d35722; */
 }

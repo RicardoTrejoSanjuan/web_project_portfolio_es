@@ -13,6 +13,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   margin: 89px 120px 0 120px;
+  font-family: var(--font-body);
 }
 
 .span-wrap {

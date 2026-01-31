@@ -23,20 +23,18 @@
 }
 
 .header__name {
-  font-family: var(--font-archivoblack);
+  font-family: var(--font-heading);
   font-size: 72px;
   margin-bottom: 15px;
 }
 
 .header__title {
-  font-family: var(--font-opensans);
   font-size: 18px;
   color: var(--color-gray);
   margin-bottom: 30px;
 }
 
 .header__summary {
-  font-family: var(--font-opensans);
   font-size: 18px;
   margin-bottom: 30px;
 }
@@ -47,7 +45,6 @@
 }
 
 .header__button {
-  font-family: var(--font-opensans);
   font-weight: 600;
   font-size: 18px;
   color: var(--color-white);
