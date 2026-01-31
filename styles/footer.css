@@ -4,7 +4,7 @@
   padding-block: 100px;
 }
 
-.glow-bg2 {
+.footer__glow-bg {
   position: absolute;
   height: 500px;
   width: 100%;
@@ -47,6 +47,7 @@
 
 .footer__social {
   display: flex;
+  justify-content: center;
   gap: 80px;
 }
 
@@ -70,8 +71,26 @@
     margin-top: 80px;
     margin-bottom: 102px;
   }
+}
 
-  .glow-bg2 {
-    width: 100%;
+/* Mobile */
+@media (max-width: 767px) {
+  .footer {
+    padding: 0;
+    margin-top: 80px;
+    margin-bottom: 91px;
+  }
+  .footer__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .footer__social {
+    gap: 40px;
+  }
+
+  .footer__social-img {
+    width: 20px;
+    height: 20px;
   }
 }
