@@ -12,10 +12,19 @@ html {
 body {
   background-color: var(--color-bg);
   color: var(--color-white);
-  margin: 89px 120px 0 120px;
+  margin: 40px 120px 0 120px;
   font-family: var(--font-body);
+  line-height: 1;
+  letter-spacing: 0;
 }
 
 .span-wrap {
   display: block;
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+  body {
+    margin: 40px 40px 0 40px;
+  }
 }
